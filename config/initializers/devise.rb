@@ -274,8 +274,12 @@ Devise.setup do |config|
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
 
   config.omniauth :google_oauth2, '694503370117-o3tla8spfljv7rum1u8kiuq2fav1hf0e.apps.googleusercontent.com', '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', {}
-  config.omniauth :facebook, '904032960283563', '54507da3b4998e43ec1805ed60135c87'
-  config.omniauth :github, '951016b88b6a7c0b2f71', '4c41591b0727a77ea641398098014cb9c9cac540'
+  config.omniauth :facebook, '904032960283563', '54507da3b4998e43ec1805ed60135c87', {}
+  config.omniauth :github, '951016b88b6a7c0b2f71', '71a931c80f8a7065adfe74403abbd523f10ade9e', {}
+  config.omniauth :linkedin, '78uw2i7g4rl099', 'gnWXSq8HufPnikM1', {}
+  config.omniauth :discord, '940109993661853716', 'arL6nvag8CSc0uEUfBCP72Ft-WW8XJkS', {}
+
+  
   # OmniAuth.config.allowed_request_methods = %i[get]
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or 
